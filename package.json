@@ -1,0 +1,19 @@
+{
+  "name": "test-library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "start": "umi dev",
+    "build": "rm -rf dist && umi lib build"
+  },
+  "dependencies": {
+    "antd": "^3.11.6",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3",
+    "umi-plugin-library": "^1.0.1-alpha.0"
+  }
+}
